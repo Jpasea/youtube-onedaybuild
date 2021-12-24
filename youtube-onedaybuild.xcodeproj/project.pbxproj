@@ -13,6 +13,10 @@
 		77E6024B2771232A00E59F9E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77E602492771232A00E59F9E /* Main.storyboard */; };
 		77E6024D2771233000E59F9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77E6024C2771233000E59F9E /* Assets.xcassets */; };
 		77E602502771233000E59F9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77E6024E2771233000E59F9E /* LaunchScreen.storyboard */; };
+		77E602582773505E00E59F9E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E602572773505E00E59F9E /* Constants.swift */; };
+		77E6025A277354C100E59F9E /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E60259277354C100E59F9E /* Video.swift */; };
+		77E6025C277354FF00E59F9E /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E6025B277354FF00E59F9E /* Model.swift */; };
+		77E6025E2775DABD00E59F9E /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E6025D2775DABD00E59F9E /* Response.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		77E6024C2771233000E59F9E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		77E6024F2771233000E59F9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		77E602512771233000E59F9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77E602572773505E00E59F9E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		77E60259277354C100E59F9E /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		77E6025B277354FF00E59F9E /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		77E6025D2775DABD00E59F9E /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +71,10 @@
 				77E6024C2771233000E59F9E /* Assets.xcassets */,
 				77E6024E2771233000E59F9E /* LaunchScreen.storyboard */,
 				77E602512771233000E59F9E /* Info.plist */,
+				77E602572773505E00E59F9E /* Constants.swift */,
+				77E6025B277354FF00E59F9E /* Model.swift */,
+				77E60259277354C100E59F9E /* Video.swift */,
+				77E6025D2775DABD00E59F9E /* Response.swift */,
 			);
 			path = "youtube-onedaybuild";
 			sourceTree = "<group>";
@@ -141,6 +153,10 @@
 				77E602482771232A00E59F9E /* ViewController.swift in Sources */,
 				77E602442771232A00E59F9E /* AppDelegate.swift in Sources */,
 				77E602462771232A00E59F9E /* SceneDelegate.swift in Sources */,
+				77E6025C277354FF00E59F9E /* Model.swift in Sources */,
+				77E602582773505E00E59F9E /* Constants.swift in Sources */,
+				77E6025A277354C100E59F9E /* Video.swift in Sources */,
+				77E6025E2775DABD00E59F9E /* Response.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
