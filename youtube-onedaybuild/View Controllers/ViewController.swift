@@ -6,8 +6,8 @@
 //
 
 
-// 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
-// git push https://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@github.com/Jpasea/youtube-onedaybuild.git
+// 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
+// git push https://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@github.com/Jpasea/youtube-onedaybuild.git
 
 import UIKit
 
@@ -28,6 +28,23 @@ class ViewController: UIViewController {
         // Set itself as the delegate of the model
         model.delegate = self
         model.getVideos()
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        // Confirm that a video was selected
+        guard tableView.indexPathForSelectedRow != nil else {
+            return
+        }
+        
+        // Get a reference to the video that was tapped on
+        let selectedVideo = videos[tableView.indexPathForSelectedRow!.row]
+        
+        // Get a reference to the detail view controller
+        let detailVC = segue.destination as! DetailViewController
+        
+        // Set the video property of the detail view controller
+        detailVC.video = selectedVideo
     }
 }
 
